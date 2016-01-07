@@ -6,11 +6,11 @@ from __future__ import print_function
 from __future__ import unicode_literals
 
 import argparse
-from oslo.config import cfg
+from oslo_config import cfg
 from wsgiref import simple_server
 
 from car_monitoring_web_api import app
-from car_monitoring_web_api.db.migration import cli as migration_cli
+from car_monitoring_web_api.db.sqlalchemy.migration import cli as migration_cli
 
 
 def db_manage():

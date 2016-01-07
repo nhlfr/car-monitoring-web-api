@@ -1,5 +1,5 @@
-alembic==0.7
-oslo.config==1.13
-oslo.db==2.0
-pyramid==1.5
-SQLAlchemy==1.0
+alembic==0.7.4
+oslo.config>=1.13
+oslo.db>=2.0
+pyramid>=1.5
+SQLAlchemy>=1.0

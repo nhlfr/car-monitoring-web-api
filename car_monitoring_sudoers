@@ -1,0 +1,1 @@
+%obd ALL=(root) NOPASSWD: /bin/chown -R obd\: /opt/car-monitoring-web-api, /usr/bin/chown -R obd\: /opt/car-monitoring-web-api

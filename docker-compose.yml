@@ -4,3 +4,4 @@ web:
      - "8080:8080"
     volumes:
      - .:/opt/car-monitoring-web-api
+    tty: true
